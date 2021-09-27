@@ -1,3 +1,7 @@
+import colorama
+from colorama import Fore, Back
+colorama.init(autoreset=True)
+
 logo = """
              .__        
  __ __  ____ |__|__  ___
@@ -9,4 +13,6 @@ logo = """
 """
 
 def logoo():
-    print(logo)
+    print(Fore.MAGENTA +logo)
+
+
