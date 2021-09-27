@@ -7,3 +7,6 @@ logo = """
            \/         \/
 
 """
+
+def logoo():
+    print(logo)
